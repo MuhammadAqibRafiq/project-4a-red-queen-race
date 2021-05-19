@@ -1,38 +1,92 @@
-.App {
+*{
+  padding: 0;
+  margin: 0;
+}
+.main{
+  
+}
+.text{
+  font-size: 30px;
   text-align: center;
+  background-color: rgb(0, 0, 0);
+  color: rgb(253, 253, 253);
+  
 }
+/* .five{
+  top: 35px;
+  left: 40px;
+} */
+#bg_sky{
+    width: 25%;
+    height: 350px;
+    margin-bottom: -4px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+#bg_earth{
+  z-index: -10;
+  width: 100%;
+  height: 250px;
+  overflow: hidden
+}
+#images {
+  position: absolute;
+  top: 35px;
+  left: 40px;
+  z-index: 2;
+}
+#tree{
+  height: 580px
+}
+#rook_small{
+  position: absolute;
+    top: -300px;
+    left: 100px;
+}
+#pawn{
+  position: absolute;
+  top: 250px;
+  left: 320px;
+}
+#small_tree{
+  position: absolute;
+    top: 230px;
+    left: 550px;
+    
+}
+#alicerun{
+  height: 90%;
+  position: absolute;
+  top: 380px; 
+  left: 750px;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  width: 800px;
+  z-index: 1;
+}
+#knight {
+  position: absolute;
+  top: -410px;
+  left: 0px;
+  z-index: 1;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  #rook {
+    position: absolute;
+    top: -320px;
+    left: 900px;
+    z-index: 4;
   }
-  to {
-    transform: rotate(360deg);
+  #bush {
+    position: absolute;
+    top: 380px;
+    left: 5px;
   }
-}
+  #pawn_small {
+    position: absolute;
+    top: 500px;
+    left: 0;
+  }
+  #rook_small{
+    position: absolute;
+    top: 320px;
+    left: 1000px;
+  }
